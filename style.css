@@ -1,0 +1,47 @@
+html {
+	background-color: #141433;
+	font-family: "Fira Code", monospace;
+	color: #ffffff;
+}
+
+.tab {
+	overflow: hidden;
+	width: 100%;
+}
+
+.button {
+	margin: auto;
+	font-family: "Fira Code", monospace;
+	background-color: #8f66cc;
+	border: none;
+	outline: none;
+	width: 10%;
+	height: 50px;
+	cursor: pointer;
+	color: #ffffff;
+	font-size: 100%;
+	float: left;
+	transition: 0.3s;
+}
+
+.button:hover {
+	background-color: #4a24b3;
+}
+
+.tabscontent {
+	display: none;
+}
+
+#home1 {
+	position: relative;
+	top: 100px;
+}
+
+.body {
+	text-align: center;
+	width: 50%;
+}
+
+#pfp {
+	clip-path: circle(50%);
+}
